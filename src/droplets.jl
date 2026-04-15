@@ -117,7 +117,8 @@ GaussianDroplet(pixfrac::T) where T = GaussianDroplet{T}(pixfrac)
 
 A droplet based on the Lanczos window function.
 
-!!! note This droplet is only designed for resampling images without rescaling them (i.e. rotating
+!!! note 
+    This droplet is primarily intended for resampling images without rescaling them (i.e. rotating
     and reflecting). `pixfrac` should usually be 1.
 """
 struct LanczosDroplet{A,T<:Real} <: AbstractDroplet{T}
