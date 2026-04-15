@@ -4,7 +4,7 @@
 Checks that the pixel fraction is not negative.
 """
 function _pixfrac_check(pixfrac)
-    pixfrac >= 0 || throw(ArgumentError("Pixel fraction must be positive (got $pixfrac)."))
+    pixfrac >= 0 || throw(ArgumentError("pixel fraction must be positive (got $pixfrac)."))
     return pixfrac
 end
 
