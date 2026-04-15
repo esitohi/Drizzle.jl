@@ -8,6 +8,9 @@
 Drizzle.jl is a Julia implementation of the [drizzle algorithm (also known as variable-pixel linear reconstruction)][drizzle-paper].
 Drizzle can be used as an alternative to interpolation-based image registration and stacking.
 
+This package only covers the registration aspect of drizzling.
+For stacking registered frames, consider using [ImageStacking.jl].
+
 [repo-url]:         https://github.com/esitohi/Drizzle.jl
 [docs-stable-img]:  https://img.shields.io/badge/docs-stable-blue.svg
 [docs-stable-url]:  https://esitohi.github.io/Drizzle.jl/stable
@@ -20,3 +23,4 @@ Drizzle can be used as an alternative to interpolation-based image registration 
 [codecov-img]:      https://codecov.io/gh/brainandforce/Drizzle.jl/branch/main/graph/badge.svg
 [codecov-url]:      https://codecov.io/gh/brainandforce/Drizzle.jl/
 [drizzle-paper]:    https://arxiv.org/abs/astro-ph/9808087
+[ImageStacking.jl]: https://github.com/esitohi/ImageStacking.jl
