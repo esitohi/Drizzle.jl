@@ -1,0 +1,6 @@
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+Drizzle = "01e3514d-baa6-4b40-b055-93638644fd01"
+
+[compat]
+Documenter = "1.17"

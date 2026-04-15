@@ -1,0 +1,7 @@
+name = "Drizzle"
+uuid = "01e3514d-baa6-4b40-b055-93638644fd01"
+version = "0.1.0-dev"
+authors = ["Brandon Flores <bsflores@wisc.edu>"]
+
+[compat]
+julia = "1.10"
